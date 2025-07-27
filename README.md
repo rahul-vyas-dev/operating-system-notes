@@ -7,7 +7,7 @@ This repository is my personal knowledge base and hands-on notes as I explore th
 
 ---
 
-# Operating System Notes
+# About Repo
 
 This repository contains a detailed collection of handwritten and typed notes covering the core concepts of **Operating Systems**. It is created as a personal learning resource and is shared publicly to help others studying or working in the field of computer science.
 
@@ -54,9 +54,12 @@ Feel free to fork, clone, and contribute if you're learning OS too!
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rahul-vyas-dev/operating-system-notes/
-
+   git clone https://github.com/rahul-vyas-dev/operating-system-notes
 
 ---
 
 Let me know if your notes are in a specific format (Markdown, PDF, DOCX, etc.), or if you want to add a section like "Exam-wise Notes" or "NPTEL/University Specific" — I can update the README accordingly.
+
+---
+
+ **If you find this repository helpful, please consider giving it a star — it motivates and helps others discover it too!**
