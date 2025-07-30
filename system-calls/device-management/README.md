@@ -1,9 +1,9 @@
 
 ---
 
-### ✅ Example: `device-management.md`
+###  Example: `device-management.md`
 
-```markdown
+
 # Device Management System Calls
 
 These calls request and release device access, or send control commands to devices.
