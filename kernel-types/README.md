@@ -7,7 +7,7 @@ Different operating systems use different kernel designs based on performance, s
 
 ## Types of Kernels
 
-1. [Monolithic Kernel](monolithic-kernel.md) – All OS services run in kernel space.
+1. [Monolithic Kernel](Monolithic-Kernel) – All OS services run in kernel space.
 2. [Microkernel](microkernel.md) – Minimal services in kernel; rest run in user space.
 3. [Hybrid Kernel](hybrid-kernel.md) – Mix of monolithic and microkernel features.
 4. [Nanokernel](nanokernel.md) – Extremely small kernel with minimal functions.
