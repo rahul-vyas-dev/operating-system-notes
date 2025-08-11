@@ -49,6 +49,10 @@ sem_post(&sem);       // Signal (V operation)
    Access   Wait
 
 
+For detailed explanations:
+- [Counting Semaphore](counting_semaphore)
+- [Binary Semaphore](binary_semaphore)
+
 
 
 
