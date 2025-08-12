@@ -13,47 +13,6 @@ There are **two main types** of CPU Scheduling:
 - **Disadvantages:** Poor response time for short processes.
 
 ### Algorithms:
-1. [First Come First Serve (FCFS)](non-preemptive/fcfs)
-2. [Shortest Job First - Non-Preemptive](non-preemptive/sjf)
-3. [Longest Job First - Non-Preemptive](non-preemptive/ljf)
-4. [Priority Scheduling - Non-Preemptive](non-preemptive/priority)
-5. [Multilevel Queue Scheduling](non-preemptive/multilevel-queue)
-6. [Highest Response Ration First](non-preemptive/hrrf)
-
-**Example Gantt Chart (FCFS)**  
-Processes:  
-- **P1**: Arrival=0, Burst=5  
-- **P2**: Arrival=1, Burst=3  
-- **P3**: Arrival=2, Burst=1  
-
-```mermaid
-gantt
-    dateFormat  X
-    title Non-Preemptive (FCFS) Gantt Chart Example
-    section Processes
-    P1 :a1, 0, 5
-    P2 :a2, 5, 8
-    P3 :a3, 8, 9
-```
-
-## Preemptive Scheduling
-
-The CPU can be **taken away** from a running process if:  
-- A higher priority process arrives, or  
-- The time slice (quantum) expires.  
-
-**Suitable for:** Interactive and time-sharing systems.  
-
-**Advantages:**  
-- Better response time  
-- Fair CPU sharing  
-
-**Disadvantages:**  
-- More context switching overhead  
-
----
-
-### Algorithms:
 1. [Shortest Job First - Preemptive (SRTF)](preemptive/sjf)
 2. [Longest Job First - Preemptive (SRTF)](preemptive/ljf)
 3. [Priority Scheduling - Preemptive](preemptive/priority)
