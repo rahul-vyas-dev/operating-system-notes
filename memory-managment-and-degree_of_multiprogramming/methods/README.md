@@ -8,10 +8,10 @@ Memory Management is an essential function of an operating system that manages t
 
 ## Types of Memory Management
 
-1. [Contiguous Memory Management](./contiguous_memory_management.md)  
+1. [Contiguous Memory Management](./contiguous_memory_management)  
    Memory is allocated in a single continuous block for each process. This method is simple but can suffer from fragmentation issues.
 
-2. [Non-Contiguous Memory Management](./non_contiguous_memory_management.md)  
+2. [Non-Contiguous Memory Management](./non_contiguous_memory_management)  
    Memory is allocated in separate blocks, allowing better utilization and flexibility. Techniques include paging and segmentation.
 
 ---
