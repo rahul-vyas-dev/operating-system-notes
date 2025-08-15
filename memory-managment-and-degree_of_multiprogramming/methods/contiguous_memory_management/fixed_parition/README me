@@ -1,0 +1,19 @@
+# Fixed Partition Allocation
+
+In Fixed Partition Allocation:
+- Memory is divided into **fixed-size** partitions during system startup.
+- Each partition holds **only one process**.
+- If a process is smaller than the partition, the extra space is wasted (**internal fragmentation**).
+
+## Example:
+RAM = 1000 KB, divided into 4 partitions of 250 KB each:
+- Process A = 200 KB → fits in one partition (50 KB wasted)
+- Process B = 300 KB → cannot fit (partition too small)
+
+## Advantages:
+- Simple to implement.
+- Low overhead.
+
+## Disadvantages:
+- Internal fragmentation.
+- Process size limited to partition size.
