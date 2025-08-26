@@ -47,7 +47,9 @@ if __name__ == "__main__":
     }
     dfs_recursive(graph, 'A')
 ```
-```
+
+# Iterative with Stack
+```python
 def dfs_iterative(graph, start):
     visited = set()
     stack = [start]
